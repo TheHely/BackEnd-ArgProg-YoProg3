@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM amazoncorretto:17
 
 COPY target/SpringBoot-0.0.1-SNAPSHOT.jar app.jar
 
